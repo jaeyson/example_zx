@@ -1,0 +1,9 @@
+version: 9
+updates:
+  - package-ecosystem: "npm" # See documentation for possible values
+    directory: "/assets" # Location of package manifests
+    schedule:
+      interval: "weekly"
+    labels:
+      - "npm"
+      - "dependencies"
